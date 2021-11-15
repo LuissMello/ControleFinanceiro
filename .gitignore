@@ -9,3 +9,5 @@
 /ControleFinanceiro.Data/obj
 /ControleFinanceiroApi/bin/Debug/netcoreapp3.1
 /ControleFinanciero.Domain/bin/Debug/netcoreapp3.1
+/ControleFinanceiro.Core/bin/Debug/netcoreapp3.1
+/ControleFinanceiro.Data/bin/Debug/netcoreapp3.1
