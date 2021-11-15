@@ -1,0 +1,9 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/ControleFinanceiro.Core/obj
+/.vs
+/ControleFinanciero.Domain/obj
+/ControleFinanceiroApi/obj
+/ControleFinanceiro.Data/obj
