@@ -9,5 +9,10 @@
     <PackageReference Include="Swashbuckle.AspNetCore.Swagger" Version="6.2.3" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ControleFinanceiro.Core\ControleFinanceiro.Core.csproj" />
+    <ProjectReference Include="..\ControleFinanceiro.Data\ControleFinanceiro.Data.csproj" />
+  </ItemGroup>
+
 
 </Project>
