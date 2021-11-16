@@ -8,6 +8,6 @@ namespace ControleFinanciero.Domain
     public class Saldo : Entity
     {
         public Guid IdUsuario { get; set; }
-        public double ValorSaldo { get; set; }
+        public double Valor { get; set; }
     }
 }
