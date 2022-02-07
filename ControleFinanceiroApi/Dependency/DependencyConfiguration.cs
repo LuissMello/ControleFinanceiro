@@ -1,6 +1,6 @@
-﻿using ControleFinanceiro.Core.Data;
-using ControleFinanceiro.Core.Services;
-using ControleFinanceiro.Data.Repositories;
+﻿using ControleEstoque.Core.Data;
+using ControleEstoque.Core.Services;
+using ControleEstoque.Data.Repositories;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using System;
@@ -8,7 +8,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace ControleFinanceiro.Api.Dependency
+namespace ControleEstoque.Api.Dependency
 {
     public static class DependencyConfiguration
     {
@@ -16,14 +16,13 @@ namespace ControleFinanceiro.Api.Dependency
         {
             services.AddScoped<IUsuarioService, UsuarioService>();
             services.AddScoped<ICategoriaService, CategoriaService>();
-            services.AddScoped<ISaldoService, SaldoService>();
-            services.AddScoped<ITransacaoService, TransacaoService>();
+            services.AddScoped<IProdutoService, ProdutoService>();
+            services.AddScoped<ISubcategoriaService, SubcategoriaService>();
 
             services.AddScoped<IUsuarioRepository, UsuarioRepository>();
             services.AddScoped<ICategoriaRepository, CategoriaRepository>();
-            services.AddScoped<ILocalRepository, LocalRepository>();
-            services.AddScoped<ISaldoRepository, SaldoRepository>();
-            services.AddScoped<ITransacaoRepository, TransacaoRepository>();
+            services.AddScoped<IProdutoRepository, ProdutoRepository>();
+            services.AddScoped<ISubcategoriaRepository, SubcategoriaRepository>();
         }
     }
 }

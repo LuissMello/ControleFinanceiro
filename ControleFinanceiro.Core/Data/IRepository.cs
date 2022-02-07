@@ -5,9 +5,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ControleFinanceiro.Core.Data
+namespace ControleEstoque.Core.Data
 {
-    public interface IRepository<TEntity> where TEntity : Entity
+    public interface IRepository<TEntity> where TEntity : Subcategoria
     {
         ValueTask<bool> DeleteAsync(TEntity model);
         ValueTask<bool> UpdateAsync(TEntity model);

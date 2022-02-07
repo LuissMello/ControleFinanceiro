@@ -1,4 +1,4 @@
-﻿using ControleFinanceiro.Core.Data;
+﻿using ControleEstoque.Core.Data;
 using ControleFinanciero.Domain;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
@@ -7,7 +7,7 @@ using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ControleFinanceiro.Core.Services
+namespace ControleEstoque.Core.Services
 {
     public class UsuarioService : IUsuarioService
     {

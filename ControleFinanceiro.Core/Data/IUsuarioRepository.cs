@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ControleFinanceiro.Core.Data
+namespace ControleEstoque.Core.Data
 {
     public interface IUsuarioRepository : IRepository<Usuario>
     {

@@ -1,4 +1,4 @@
-﻿using ControleFinanceiro.Core.Data;
+﻿using ControleEstoque.Core.Data;
 using ControleFinanciero.Domain;
 using Dapper.Contrib.Extensions;
 using Microsoft.Extensions.Configuration;
@@ -7,9 +7,9 @@ using System.Data.SqlClient;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace ControleFinanceiro.Data.Repositories
+namespace ControleEstoque.Data.Repositories
 {
-    public class Repository<TEntity> : IRepository<TEntity> where TEntity : Entity
+    public class Repository<TEntity> : IRepository<TEntity> where TEntity : Subcategoria
     {
         private readonly IConfiguration _configuration;
         protected readonly string _connectionString;

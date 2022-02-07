@@ -5,9 +5,9 @@ using System.Text;
 
 namespace ControleFinanciero.Domain
 {
-    public class Saldo : Entity
+    public class Produto : Subcategoria
     {
         public Guid IdUsuario { get; set; }
-        public double Valor { get; set; }
+        public string Descricao { get; set; }
     }
 }

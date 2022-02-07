@@ -1,4 +1,4 @@
-﻿using ControleFinanceiro.Core.Data;
+﻿using ControleEstoque.Core.Data;
 using ControleFinanciero.Domain;
 using Dapper;
 using Dapper.Contrib.Extensions;
@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 using System.Linq;
 using System.Data;
 
-namespace ControleFinanceiro.Data.Repositories
+namespace ControleEstoque.Data.Repositories
 {
     public class UsuarioRepository : Repository<Usuario>, IUsuarioRepository
     {

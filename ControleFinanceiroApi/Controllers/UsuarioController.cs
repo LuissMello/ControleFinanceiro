@@ -1,10 +1,10 @@
-﻿using ControleFinanceiro.Core.Services;
+﻿using ControleEstoque.Core.Services;
 using ControleFinanciero.Domain;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System.Threading.Tasks;
 
-namespace ControleFinanceiro.Api.Controllers
+namespace ControleEstoque.Api.Controllers
 {
     [Route("api/[controller]/[action]")]
     [ApiController]

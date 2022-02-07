@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 
-namespace ControleFinanceiroApi.Controllers
+namespace ControleEstoqueApi.Controllers
 {
     [ApiController]
     [Route("[controller]")]

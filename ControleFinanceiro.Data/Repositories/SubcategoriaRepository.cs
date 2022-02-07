@@ -7,9 +7,9 @@ using System.Text;
 
 namespace ControleEstoque.Data.Repositories
 {
-    public class CategoriaRepository : Repository<Categoria>, ICategoriaRepository
+    public class SubcategoriaRepository : Repository<Subcategoria>, ISubcategoriaRepository
     {
-        public CategoriaRepository(IConfiguration configuration) : base(configuration)
+        public SubcategoriaRepository(IConfiguration configuration) : base(configuration)
         {
 
         }

@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace ControleFinanceiro.Core.Services
+namespace ControleEstoque.Core.Services
 {
-    public interface ILocalService
+    public interface IProdutoService
     {
     }
 }

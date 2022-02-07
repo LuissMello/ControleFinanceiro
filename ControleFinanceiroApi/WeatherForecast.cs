@@ -1,6 +1,6 @@
 using System;
 
-namespace ControleFinanceiroApi
+namespace ControleEstoqueApi
 {
     public class WeatherForecast
     {

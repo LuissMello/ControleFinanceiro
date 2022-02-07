@@ -4,7 +4,7 @@ using System.Text;
 
 namespace ControleFinanciero.Domain
 {
-    public class Entity
+    public class Subcategoria
     {
         public Guid Id { get; set; }
     }

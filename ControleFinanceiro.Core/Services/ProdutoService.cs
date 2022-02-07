@@ -4,7 +4,7 @@ using System.Text;
 
 namespace ControleEstoque.Core.Services
 {
-    public interface ISubcategoriaService
+    public class ProdutoService : IProdutoService
     {
     }
 }

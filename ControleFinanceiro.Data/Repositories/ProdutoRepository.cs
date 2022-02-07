@@ -7,9 +7,9 @@ using System.Text;
 
 namespace ControleEstoque.Data.Repositories
 {
-    public class CategoriaRepository : Repository<Categoria>, ICategoriaRepository
+    public class ProdutoRepository : Repository<Produto>, IProdutoRepository
     {
-        public CategoriaRepository(IConfiguration configuration) : base(configuration)
+        public ProdutoRepository(IConfiguration configuration) : base(configuration)
         {
 
         }

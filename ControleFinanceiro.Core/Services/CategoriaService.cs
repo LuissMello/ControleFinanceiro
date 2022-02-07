@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace ControleFinanceiro.Core.Services
+namespace ControleEstoque.Core.Services
 {
     public class CategoriaService : ICategoriaService
     {

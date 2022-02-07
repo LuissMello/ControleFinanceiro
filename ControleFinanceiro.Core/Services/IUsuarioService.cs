@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ControleFinanceiro.Core.Services
+namespace ControleEstoque.Core.Services
 {
     public interface IUsuarioService
     {

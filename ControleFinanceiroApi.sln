@@ -1,15 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30523.141
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31912.275
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControleFinanceiro.Api", "ControleFinanceiroApi\ControleFinanceiro.Api.csproj", "{B66DC296-5099-4346-9ABC-F6DAEA098840}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ControleEstoque.Api", "ControleFinanceiroApi\ControleEstoque.Api.csproj", "{B66DC296-5099-4346-9ABC-F6DAEA098840}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControleFinanceiro.Core", "ControleFinanceiro.Core\ControleFinanceiro.Core.csproj", "{25475864-5B01-47E3-B502-A46A85E3DBB1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ControleEstoque.Core", "ControleFinanceiro.Core\ControleEstoque.Core.csproj", "{25475864-5B01-47E3-B502-A46A85E3DBB1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControleFinanceiro.Data", "ControleFinanceiro.Data\ControleFinanceiro.Data.csproj", "{A380599E-2193-43C8-B99D-9E6219B5D940}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ControleEstoque.Data", "ControleFinanceiro.Data\ControleEstoque.Data.csproj", "{A380599E-2193-43C8-B99D-9E6219B5D940}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControleFinanciero.Domain", "ControleFinanciero.Domain\ControleFinanciero.Domain.csproj", "{08BF4925-B1E8-4141-9ED3-0CDE9509916E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConroleEstoque.Domain", "ControleFinanciero.Domain\ConroleEstoque.Domain.csproj", "{08BF4925-B1E8-4141-9ED3-0CDE9509916E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
